@@ -66,7 +66,7 @@
             <div class="panel-body">
                 <img  src="{{ asset('img/bootstrap-logo.png')}}" alt="Bootstrap3"></img>
                 <p>Bootstrap é o mais popular framework HTML, CSS, e JS para desenvolvimento de projetos responsivo e focado para dispositivos móveis na web.</p>
-                <p>Projetado para qualquer um, em qualquer lugarm, bootstrap torna o desenvolvimento front-end web mais rápido e fácil. Ele é feito para pessoas de todos os níveis e dispositivos de qualquer forma ou tamanho.</p>
+                <p>Projetado para qualquer um, em qualquer lugar, bootstrap torna o desenvolvimento front-end web mais rápido e fácil. Ele é feito para pessoas de todos os níveis e dispositivos de qualquer forma ou tamanho.</p>
                 <p>Fonte: <a href="http://getbootstrap.com.br/" target="_blank">Getbootstrap.com</a></p>
             </div>
         </div>

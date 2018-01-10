@@ -47,7 +47,7 @@
             </div>
             <p class="lead">Conheça um pouco mais sobre mim</p>
             <p>Selecione uma das opções abaixo para conhecer um pouco mais sobre mim e sobre o meu trabalho, não se esqueça de deixar sua opinião sobre o site!</p>
-            <a class="btn btn-large btn-custom" href="{{ asset('doc/curriculum.pdf') }}" target="_blank">Curriculum</a><a class="btn btn-link"> Ou acesse a página de contato</a>
+            <a class="btn btn-large btn-custom" href="{{ asset('doc/curriculum.pdf') }}" target="_blank">Curriculum</a><a class="btn btn-link" href="{{ route('contact') }}"> Ou acesse a página de contato</a>
         </div>
     </div>
 </div>

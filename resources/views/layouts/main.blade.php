@@ -44,6 +44,8 @@
             @yield('content')
         </div>
 
+        
+
         <div class="container">
             <div class="footer jumbotron">
                 <h4>Copyright &copy; 2018 Leonardo Ferreira Moura - Todos os direitos reservados</h4>
@@ -54,5 +56,10 @@
 		<script src="{{ asset('js/jquery.min.js') }}"></script>
 		<script src="{{ asset('js/bootstrap.min.js') }}"></script>
         <script src="{{ asset('js/jquery.mask.min.js') }}"></script>
+        <script>
+            @if(Session::has('success'))
+                $('.modal').modal('show');
+            @endif
+        </script>
     </body>
 </html>
